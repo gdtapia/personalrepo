@@ -1,28 +1,27 @@
----
-title: How to Template (english version)
-description: This document is a how to template.
----
+>A **How to guide** is suppoesed to teach the user how to accomplish a certain task, through detailed steps that describe what has to be done to reach a specific goal.
 
-# **Title**
-Add the title of the tutorial
+# **Title (How to do something)**
+Add the title of the tutorial. Try to keep the `How to` on the title. 
 
-# **Overview**
 
-This is a summary of what the tutorial is about and you should answer the question:
+## **Overview**
+
+This is a summary of what the guide is about, and you should answer the question:
 - How do I do this? 
 
 
-# **Requisites**
-- Add the requisites to proceed the tutorial;
+## **Pre-requisites**
+- Add the requisites to proceed the tutorial. These prerequisites can be a installing a software/component, and/or performing specific tasks for the guide to work.
 
 - Pre-Requisite 1
+- Pre-Requisite 2
 
 
 ##  **Steps**
-
+>The actual steps to accomplish a task. Do not be wordy, try to keep as concise and informative as possible.
 ### **Step 1: Title for the step**
-- Add the first step the user needs to do to install, configure or use the application/feature. 
-- Use images, gifs to improve your tutorial, but you should always explain what they are there. 
+- Details on how to accomplish the step. 
+Use images, gifs to improve your tutorial, but you should always explain what they are there. 
 
 ### **Step 2: Title for the step** 
 - You can add an ordered/numbered list to change the information architeture.
@@ -34,19 +33,18 @@ This is a summary of what the tutorial is about and you should answer the questi
 - Substep 2
 
 ### **Step 3: Title for the step**
-- You can also add code blocks, when necessary:
+- You can also add code blocks, when necessary, if possible put the programming language used in the code:
 
-```
+```python
 add code here
 ```
 ### **Step 4: Title for step**
-- Alway provide a conclusion to your whole tutorial; 
+- Always provide a conclusion to your whole tutorial; 
 - Show to the user a sample of a success in case of an instalation or configuration, for example: 
 
 - Successful hint
-{{% alert color="success" %}}
 Done! You have just installed the application!
-{{% /alert %}}
+
 
 - Image with the expected output for the installation; 
 
